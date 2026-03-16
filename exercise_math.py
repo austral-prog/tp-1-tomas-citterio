@@ -13,3 +13,15 @@ def math():
     """
     a = 57
     b = 7
+    suma = a + b
+    diferencia = a - b
+    producto = a * b
+    cociente = int(a / b)
+    resto = a % b
+    valor_real = float(a / b)
+    print(suma)
+    print(diferencia)
+    print(producto)
+    print(cociente)
+    print(resto)
+    print(valor_real)
