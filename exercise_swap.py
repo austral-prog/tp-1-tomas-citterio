@@ -10,3 +10,8 @@ def swap():
     """
     x = 10
     y = 20
+    print("El valor original de x", x)
+    print("El valor original de y", y)
+    x, y = y, x
+    print("Valor de x despues del intercambio", x)
+    print("Valor de y despues del intercambio", y)
