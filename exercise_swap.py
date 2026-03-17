@@ -12,7 +12,6 @@ def swap():
     y = 20
     print(x)
     print(y)
-    x = 20
-    y = 10
+    x, y = y , x
     print(x)
     print(y)
