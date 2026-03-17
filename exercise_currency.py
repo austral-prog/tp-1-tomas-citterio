@@ -14,4 +14,6 @@ def currency():
     monto_dolar = pesos / tasa_dolar
     monto_euro = pesos / tasa_euro
     monto_real = pesos / tasa_real
-    print(monto_dolar, monto_euro, monto_real)
+    print(monto_dolar)
+    print(monto_euro)
+    print(monto_real)
