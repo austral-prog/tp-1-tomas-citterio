@@ -16,12 +16,14 @@ def math():
     suma = a + b
     diferencia = a - b
     producto = a * b
-    cociente = int(a / b)
+    promedio = (a + b) / 2
+    cociente_entero = int(a / b)
     resto = a % b
-    valor_real = float(a / b)
+    valor_real = a / b
     print(suma)
     print(diferencia)
     print(producto)
-    print(cociente)
+    print(promedio)
+    print(cociente_entero)
     print(resto)
     print(valor_real)
